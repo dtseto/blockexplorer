@@ -83,8 +83,10 @@ Do not remove the `REACT_APP_` prefix. React uses that to import env variables.
 > front-end code for this project.
 
 ## 3. Start the webserver
-
+npm install
+npm run build
 `npm start`
+serve -s build
 
 Running the command above will run the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
